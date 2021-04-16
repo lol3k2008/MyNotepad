@@ -50,31 +50,38 @@ main{
     width: 100vw;
     height: 100vh;
 }
-.margin{
-    width: 100%;
-    height: 14%;
-    background-color: rgb(255, 193, 21);
-}
 
 .margin{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.margin .btn{
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+     width: 100%;
+    height: 14%;
+    background-color: rgb(255, 193, 21);
+}
+.margin p {
+    margin: 0 5px;
+}
+.btn_del{
+    background-image: url('/img/x.svg');
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 14px;
+    padding: 14px;
     background-color: transparent;
     border: none;
     cursor: pointer;
     transition: color .5s;
     font-size: 1.2em;
+    transition: background .6s ;
 }
-.margin .btn:hover{
-    color: red;
+.margin .btn_del:hover{
+    background-color: rgba(255, 38, 0, 0.685);
 }
-
+.content{
+    padding: 5px;
+}
 .note{
     width: 200px;
     height: 200px;
