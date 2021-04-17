@@ -16,22 +16,43 @@
    <nav>
        <div class="logo_nav"> MyNotepad</div>
        <ul>
-           <li><button class="btn">Dodaj</button></li>
-           <li><button class="btn">Usuń wszystkie</button></li>
+           <li><button class="btn addNewNote">Dodaj</button></li>
+           <li><button class="btn delAllNote">Usuń wszystkie</button></li>
        </ul>
    </nav>
+   
    <main class="noteArea">
-       
-    <div class="note" id="note-1">
-        <div class="margin">
-            <p>Name</p>
-            <button class="btn btn_del"></button>
-        </div>
-        <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, laboriosam.
+    <div class="note" id="note-0">
+        <span class="margin">
+            <p>Inne</p>
+            <button class="btn_del"></button>
+        </span>
+        <div class="content">Miłego dnia !
         </div>
     </div>
    </main>
 
+<div class="heroImg">
+   <div class="popup_add"> 
+       <p class="tittle_add">Dodaj notatkę</p>
+<div class="checkBox">
+<input class="input input_add" type="text">
+<select name="category" id="select">
+    <option selected disabled value="none">--none--</option>
+    <option value="Praca">Praca</option>
+    <option value="Zakupy">Zakupy</option>
+    <option value="Dom">Dom</option>
+    <option value="Inne">Inne</option>
+</select>
+</div>
+<div class=" add_btn_panel">
+<button class="btn btn_add_ok">ok</button>
+<button class="btn btn_add_anuluj">anuluj</button>
+
+</div>
+
+   </div>
+</div>
 
 
     <script src="js/script.js"></script>
