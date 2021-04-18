@@ -31,7 +31,7 @@ newNote.innerHTML = `
 
 <span class="margin">
 <p>${select.value}</p>
-<button class="btn_del"></button>
+<button class="btn_del"><i class="fas fa-backspace"></i></button>
 </span>
 <div class="content">${popup_add_input.value}
 </div>

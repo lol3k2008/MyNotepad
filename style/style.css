@@ -58,12 +58,8 @@ main{
     margin: 0 5px;
 }
 .btn_del{
-    background-image: url('/img/x.svg');
-    background-position: center;
-    background-size: cover;
-    width: 10px;
-    height: 14px;
-    padding: 14px;
+ 
+    padding: 4px;
     background-color: transparent;
     border: none;
     cursor: pointer;
